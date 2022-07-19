@@ -43,6 +43,12 @@ module.exports = {
       },
     ],
     'import/order': 'warn',
+    'object-property-newline': [
+      'warn',
+      {
+        allowMultiplePropertiesPerLine: true,
+      },
+    ],
   },
   overrides: [
     {
