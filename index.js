@@ -20,7 +20,10 @@ module.exports = {
     ],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['warn'],
-    '@typescript-eslint/explicit-function-return-type': ['warn', { allowExpressions: true }],
+    '@typescript-eslint/explicit-function-return-type': [
+      'warn',
+      { allowExpressions: true },
+    ],
     'object-curly-spacing': ['warn', 'always'],
     'quote-props': ['warn', 'as-needed'],
     'comma-dangle': ['warn', 'never'],
@@ -52,11 +55,6 @@ module.exports = {
         'quote-props': ['warn', 'always'],
         semi: ['warn', 'never'],
       },
-    },
-    {
-      files: ['*.html'],
-      parser: '@html-eslint/parser',
-      extends: ['plugin:@html-eslint/recommended'],
     },
   ],
 };
