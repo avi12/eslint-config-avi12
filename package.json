@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-avi12",
+  "name": "eslint-config-avi12",
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">= 3"
