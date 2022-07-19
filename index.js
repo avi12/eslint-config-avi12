@@ -52,5 +52,10 @@ module.exports = {
         semi: ['warn', 'never'],
       },
     },
+    {
+      files: ["*.html"],
+      parser: "@html-eslint/parser",
+      extends: ["plugin:@html-eslint/recommended"],
+    }
   ],
 };
