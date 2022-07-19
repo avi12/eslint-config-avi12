@@ -20,7 +20,7 @@ module.exports = {
     ],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['warn'],
-    '@typescript-eslint/explicit-function-return-type': 'warn',
+    '@typescript-eslint/explicit-function-return-type': ['warn', { allowExpressions: true }],
     'object-curly-spacing': ['warn', 'always'],
     'quote-props': ['warn', 'as-needed'],
     'comma-dangle': ['warn', 'never'],
