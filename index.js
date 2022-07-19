@@ -39,6 +39,7 @@ module.exports = {
         multiline: true,
       },
     ],
+    'import/order': 'warn',
   },
   overrides: [
     {
@@ -53,9 +54,9 @@ module.exports = {
       },
     },
     {
-      files: ["*.html"],
-      parser: "@html-eslint/parser",
-      extends: ["plugin:@html-eslint/recommended"],
-    }
+      files: ['*.html'],
+      parser: '@html-eslint/parser',
+      extends: ['plugin:@html-eslint/recommended'],
+    },
   ],
 };
