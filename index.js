@@ -36,12 +36,7 @@ module.exports = {
       },
     ],
     'array-bracket-newline': ['warn', 'never'],
-    'array-element-newline': [
-      'warn',
-      {
-        multiline: true,
-      },
-    ],
+    'array-element-newline': ['warn', 'consistent'],
     'import/order': 'warn',
     'object-property-newline': [
       'warn',
