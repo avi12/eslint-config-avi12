@@ -2,9 +2,9 @@
   "name": "eslint-config-avi12",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 3",
+    "eslint-plugin-import": "latest"
   },
   "devDependencies": {
-    "eslint-plugin-import": "latest"
   }
 }
