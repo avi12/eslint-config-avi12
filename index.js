@@ -63,10 +63,6 @@ module.exports = {
       },
     },
   ],
-  plugins: [
-    'plugin:@typescript-eslint/recommended',
-    '@typescript-eslint',
-    'svelte3',
-    'import',
-  ],
+  extends: ['plugin:@typescript-eslint/recommended'],
+  plugins: ['@typescript-eslint', 'svelte3', 'import'],
 };
