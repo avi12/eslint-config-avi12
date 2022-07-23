@@ -2,12 +2,12 @@
   "name": "eslint-config-avi12",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">= 3",
-    "@typescript-eslint/eslint-plugin": "latest",
-    "@typescript-eslint/parser": "latest"
+    "eslint": ">= 3"
   },
   "devDependencies": {
     "eslint-plugin-import": "latest",
-    "eslint-plugin-svelte3": "latest"
+    "eslint-plugin-svelte3": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest"
   }
 }
