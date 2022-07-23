@@ -3,5 +3,8 @@
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "latest"
   }
 }
