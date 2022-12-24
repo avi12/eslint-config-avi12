@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     'arrow-parens': ['warn', 'as-needed'],
     'prefer-const': 'warn',
@@ -37,7 +37,10 @@ module.exports = {
     ],
     'array-bracket-newline': ['warn', 'never'],
     'array-element-newline': ['warn', 'consistent'],
-    'import/order': 'warn',
+    'import/order': [
+      'warn',
+      { groups: ['external', 'internal'], order: { alphabetize: 'asc' } },
+    ],
     'object-property-newline': [
       'warn',
       {
@@ -53,7 +56,7 @@ module.exports = {
     {
       files: ['*.json'],
       rules: {
-        'quote-props': ['warn', 'always'],
+        'quote-props': ['warn', 'as-needed'],
         semi: ['warn', 'never'],
       },
     },
