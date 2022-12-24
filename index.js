@@ -39,7 +39,7 @@ module.exports = {
     'array-element-newline': ['warn', 'consistent'],
     'import/order': [
       'warn',
-      { groups: ['external', 'internal'], order: { alphabetize: 'asc' } },
+      { groups: ['external', 'internal'], alphabetize: { order: 'asc' } },
     ],
     'object-property-newline': [
       'warn',
