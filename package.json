@@ -4,11 +4,11 @@
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-plugin-import": ">= 2",
-    "eslint-plugin-node": ">= 11"
-  },
-  "devDependencies": {
+    "eslint-plugin-node": ">= 11",
     "eslint-plugin-svelte3": "latest",
-    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/eslint-plugin": "latest"
+  },
+  "dependencies": {
     "@typescript-eslint/parser": "latest"
   }
 }
