@@ -29,12 +29,6 @@ module.exports = {
     'comma-dangle': ['warn', 'never'],
     curly: ['warn', 'all'],
     'object-property-newline': ['warn'],
-    'max-len': [
-      'warn',
-      {
-        code: 120,
-      },
-    ],
     'array-bracket-newline': ['warn', 'never'],
     'array-element-newline': ['warn', 'consistent'],
     'import/order': [
