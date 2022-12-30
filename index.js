@@ -53,6 +53,12 @@ module.exports = {
         semi: ['warn', 'never'],
       },
     },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/explicit-function-return-type': 'off',
+      },
+    },
   ],
   plugins: ['@typescript-eslint', 'svelte3', 'import'],
   extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
