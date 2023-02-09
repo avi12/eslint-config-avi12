@@ -3,12 +3,12 @@
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">= 3",
-    "eslint-plugin-node": ">= 11",
-    "eslint-plugin-svelte3": "latest",
     "@typescript-eslint/eslint-plugin": "latest"
   },
   "dependencies": {
     "eslint-plugin-import": ">= 2",
+    "eslint-plugin-node": ">= 11",
+    "eslint-plugin-svelte3": "latest",
     "@typescript-eslint/parser": "latest"
   }
 }
