@@ -43,10 +43,6 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.svelte'],
-      processor: 'svelte3/svelte3',
-    },
-    {
       files: ['*.json'],
       rules: {
         'quote-props': ['warn', 'as-needed'],
