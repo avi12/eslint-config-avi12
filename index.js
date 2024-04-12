@@ -1,5 +1,12 @@
+import tsEslint from 'typescript-eslint';
+import pluginImport from 'eslint-plugin-import';
+
 export default [
   {
+    plugins: {
+      '@typescript-eslint': tsEslint.plugin,
+      import: pluginImport,
+    },
     rules: {
       'arrow-parens': ['warn', 'as-needed'],
       'prefer-const': 'warn',
