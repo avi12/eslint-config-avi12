@@ -38,12 +38,6 @@ export default [
         'warn',
         { groups: ['external', 'internal'], alphabetize: { order: 'asc' } },
       ],
-      'object-property-newline': [
-        'warn',
-        {
-          allowMultiplePropertiesPerLine: true,
-        },
-      ],
     },
   },
 ];
