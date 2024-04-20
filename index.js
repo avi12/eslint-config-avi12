@@ -34,7 +34,6 @@ export default [
       'quote-props': ['warn', 'as-needed'],
       'comma-dangle': ['warn', 'never'],
       curly: ['warn', 'all'],
-      'object-property-newline': ['warn'],
       'array-element-newline': ['warn', 'consistent'],
       'import/order': [
         'warn',
