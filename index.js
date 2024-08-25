@@ -5,7 +5,6 @@ import stylistic from '@stylistic/eslint-plugin-js';
 export default [
   {
     plugins: {
-      '@typescript-eslint': tsEslint.plugin,
       '@stylistic/js': stylistic,
       import: pluginImport,
     },
