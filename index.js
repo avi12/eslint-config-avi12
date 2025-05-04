@@ -12,7 +12,7 @@ export default [
       "prefer-const": "warn",
       "no-async-promise-executor": "off",
       semi: "warn",
-      quotes: [
+      "@stylistic/js/quotes": [
         "warn",
         "double",
         {
