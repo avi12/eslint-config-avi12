@@ -35,7 +35,8 @@ export default [
       curly: ["warn", "all"],
       "array-element-newline": ["warn", "consistent"],
       "import/order": ["warn", { groups: ["external", "internal"], alphabetize: { order: "asc" } }],
-      "@stylistic/js/object-curly-spacing": ["warn", "always"]
+      "@stylistic/js/object-curly-spacing": ["warn", "always"],
+      "svelte/html-quotes": ["error", { prefer: "double" }]
     }
   }
 ];
