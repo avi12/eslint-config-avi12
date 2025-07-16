@@ -16,7 +16,7 @@ export default [
         "warn",
         "double",
         {
-          allowTemplateLiterals: true,
+          allowTemplateLiterals: "always",
           avoidEscape: true
         }
       ],
