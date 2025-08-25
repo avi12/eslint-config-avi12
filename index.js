@@ -4,7 +4,7 @@ import stylistic from "@stylistic/eslint-plugin";
 export default [
   {
     plugins: {
-      "@stylistic/js": stylistic,
+      "@stylistic": stylistic,
       import: pluginImport
     },
     rules: {
@@ -12,7 +12,7 @@ export default [
       "prefer-const": "warn",
       "no-async-promise-executor": "off",
       semi: "warn",
-      "@stylistic/js/quotes": [
+      "@stylistic/quotes": [
         "warn",
         "double",
         {
@@ -35,7 +35,7 @@ export default [
       curly: ["warn", "all"],
       "array-element-newline": ["warn", "consistent"],
       "import/order": ["warn", { groups: ["external", "internal"], alphabetize: { order: "asc" } }],
-      "@stylistic/js/object-curly-spacing": ["warn", "always"],
+      "@stylistic/object-curly-spacing": ["warn", "always"],
       "svelte/html-quotes": ["error", { prefer: "double" }]
     }
   }
