@@ -8,10 +8,10 @@ export default [
       import: pluginImport
     },
     rules: {
-      "arrow-parens": ["warn", "as-needed"],
+      "@stylistic/arrow-parens": ["warn", "as-needed"],
       "prefer-const": "warn",
       "no-async-promise-executor": "off",
-      semi: "warn",
+      "@stylistic/semi": "warn",
       "@stylistic/quotes": [
         "warn",
         "double",
@@ -20,7 +20,7 @@ export default [
           avoidEscape: true
         }
       ],
-      indent: [
+      "@stylistic/indent": [
         "warn",
         2,
         {
@@ -28,15 +28,16 @@ export default [
         }
       ],
       "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": ["warn"],
-      "object-curly-spacing": ["warn", "always"],
-      "quote-props": ["warn", "as-needed"],
-      "comma-dangle": ["warn", "never"],
+      "@typescript-eslint/no-unused-vars": "warn",
+      "@stylistic/quote-props": ["warn", "as-needed"],
+      "@stylistic/comma-dangle": ["warn", "never"],
       curly: ["warn", "all"],
-      "array-element-newline": ["warn", "consistent"],
+      "@stylistic/array-element-newline": ["warn", "consistent"],
       "import/order": ["warn", { groups: ["external", "internal"], alphabetize: { order: "asc" } }],
       "@stylistic/object-curly-spacing": ["warn", "always"],
-      "svelte/html-quotes": ["error", { prefer: "double" }]
+      "@stylistic/brace-style": "error",
+      "svelte/html-quotes": ["error", { prefer: "double" }],
+      "svelte/indent": ["error", 2]
     }
   }
 ];
