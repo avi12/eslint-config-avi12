@@ -37,7 +37,12 @@ export default [
       "@stylistic/object-curly-spacing": ["warn", "always"],
       "@stylistic/brace-style": "error",
       "svelte/html-quotes": ["error", { prefer: "double" }],
-      "svelte/indent": ["error", 2]
+      "svelte/indent": [
+        "error",
+        {
+          indent: 2
+        }
+      ]
     }
   }
 ];
